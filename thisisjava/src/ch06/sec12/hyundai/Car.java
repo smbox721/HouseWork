@@ -10,6 +10,7 @@ public class Car {
 	ch06.sec12.kumho.Tire tire2 = new ch06.sec12.kumho.Tire();
 	SnowTire tire3 = new SnowTire();
 	AllSeasonTire tire4 = new AllSeasonTire();
+	//import선언시 패키지 주소를 작성할 필요없음.
 }
 
 

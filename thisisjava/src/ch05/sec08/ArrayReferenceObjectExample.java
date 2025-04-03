@@ -2,7 +2,7 @@ package ch05.sec08;
 
 public class ArrayReferenceObjectExample {
 	public static void main(String[] args) {		
-		String[] strArray = new String[3];
+		String[] strArray = new String[3]; //객체타입은 null로 초기화 되어있음.
 		strArray[0] = "Java";
 		strArray[1] = "Java";
 		strArray[2] = new String("Java");

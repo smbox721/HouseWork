@@ -16,5 +16,12 @@ public class KoreanExample {
 		System.out.println("k2.nation : " + k2.nation);
 		System.out.println("k2.name : " + k2.name);
 		System.out.println("k2.ssn : " + k2.ssn);
+		System.out.println();
+		
+		Korean k3 = new Korean();
+		//System.out.println("");
+		System.out.println("k3.nation : " + k3.nation);
+		System.out.println("k3.name : " + k3.name);
+		System.out.println("k3.ssn : " + k3.ssn);
 	}
 }

@@ -15,7 +15,6 @@ public class CarExample {
 			//리턴값이 없는 run 메소드 호출
 			myCar.run();  
 		}
-		
 		System.out.println("gas를 주입하세요.");
 	}
 }

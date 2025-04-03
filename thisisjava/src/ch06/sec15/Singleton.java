@@ -12,4 +12,5 @@ public class Singleton {
 	static Singleton getInstance() {
 		return singleton;
 	}
+
 }

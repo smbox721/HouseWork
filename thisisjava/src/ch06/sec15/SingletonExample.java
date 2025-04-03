@@ -11,7 +11,7 @@ public class SingletonExample {
 		Singleton obj1 = Singleton.getInstance();
 		Singleton obj2 = Singleton.getInstance();
 		
-		//동일한 객체를 참조하는지 확
+		//동일한 객체를 참조하는지 확인
 		if(obj1 == obj2) {
 			System.out.println("같은 Singleton 객체 입니다.");
 		} else {

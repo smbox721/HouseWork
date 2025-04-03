@@ -18,10 +18,10 @@ public class WeekExample {
 			case 1:  today = Week.SUNDAY ;        	break;
 			case 2:  today = Week.MONDAY;       	break;
 			case 3:  today = Week.TUESDAY;       	break;
-			case 4:  today = Week.WEDNESDAY; 	break;
-			case 5:  today = Week.THURSDAY;   	break;
+			case 4:  today = Week.WEDNESDAY; 		break;
+			case 5:  today = Week.THURSDAY;   		break;
 			case 6:  today = Week.FRIDAY;         	break;				
-			case 7:  today = Week.SATURDAY;   	break;		
+			case 7:  today = Week.SATURDAY;   		break;		
 		}
 		
 		//열거 타입 변수를 사용
