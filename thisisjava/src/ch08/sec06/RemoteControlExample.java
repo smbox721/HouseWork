@@ -29,6 +29,7 @@ public class RemoteControlExample {
 		
 		//정적 메소드 호출
 		RemoteControl.changeBattery();
+		rc.changeBattery();
 	}
 }
 

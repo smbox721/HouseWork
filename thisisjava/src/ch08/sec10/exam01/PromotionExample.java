@@ -16,6 +16,10 @@ public class PromotionExample {
 		a = c;		//A <-- C
 		a = d;		//A <-- D
 		a = e;		//A <-- E
+		
+		if(a instanceof E) {
+			System.out.println("참");
+		}
 	}
 }
 
