@@ -38,6 +38,8 @@ public class TryWithResourceExample {
 			String data2 = res2.read1();
 		} catch(Exception e) {
 			System.out.println("예외 처리: " + e.getMessage());
+		} finally {
+			System.out.println("finally 구문 실행..");
 		}
 	}
 }

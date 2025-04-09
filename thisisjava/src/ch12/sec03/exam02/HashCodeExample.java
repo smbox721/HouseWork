@@ -7,6 +7,8 @@ public class HashCodeExample {
 		Student s2 = new Student(1, "홍길동");
 
 		if(s1.hashCode() == s2.hashCode()) {
+			System.out.println("s1.hashCode = " + s1.hashCode());
+			System.out.println("s2.hashCode = " + s2.hashCode());
 			if(s1.equals(s2)) {
 				System.out.println("동등 객체입니다.");
 			} else {

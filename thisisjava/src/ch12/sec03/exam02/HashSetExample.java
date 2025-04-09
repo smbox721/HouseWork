@@ -10,7 +10,6 @@ public class HashSetExample {
 		hashSet.add(s1);
 		System.out.println("저장된 객체수: " + hashSet.size());
 		
-		
 		Student s2 = new Student(1, "홍길동");
 		hashSet.add(s2);
 		System.out.println("저장된 객체수: " + hashSet.size());

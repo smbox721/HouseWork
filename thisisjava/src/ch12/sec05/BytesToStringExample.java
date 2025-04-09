@@ -23,6 +23,10 @@ public class BytesToStringExample {
 		//byte 배열 -> String(기본: UTF-8 디코딩)
 		String str2 = new String(arr2, "EUC-KR");
 		System.out.println("str2: " + str2);
+		
+		//byte 배열 -> String(기본: UTF-8 디코딩)
+		String str3 = new String(arr2, "UTF-8");
+		System.out.println("str2: " + str3);
 	}
 }
 
