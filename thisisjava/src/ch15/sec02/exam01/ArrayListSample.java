@@ -2,6 +2,10 @@ package ch15.sec02.exam01;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Iterator;
+
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.CompareGenerator;
 
 public class ArrayListSample {
 	public static void main(String[] args) {
@@ -103,5 +107,19 @@ public class ArrayListSample {
 
 		list8.size(); // 크기(size)는 13 : 자동으로 용량이 증가되어 데이터를 적재함
 		System.out.println(list8);
+		
+		//정렬 예제
+		ArrayList list9 = new ArrayList();
+		list9.add("3");
+		list9.add("2");
+		list9.add("1");
+		//오름차순으로 정렬
+		list9.sort(Comparator.naturalOrder());
+		System.out.println(list9); // [1, 2, 3]
+		
+		Iterator iter = list9.iterator();
+		while(iter.hasNext()) {
+			System.out.print(iter.next());
+		}
 	}
 }

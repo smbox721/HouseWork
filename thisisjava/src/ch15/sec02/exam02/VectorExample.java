@@ -44,7 +44,11 @@ public class VectorExample {
 		//저장된 총 객체 수 얻기
 		int size = list.size();
 		System.out.println("총 객체 수: " + size);		
-		System.out.println();		
+		System.out.println();	
+		
+		for(Board b : list) {
+			System.out.println(b.getSubject());
+		}
 	}
 }
 

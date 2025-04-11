@@ -9,20 +9,20 @@ public class ConnectionExample {
 		Connection conn = null;
 		try {
 			//JDBC Driver 등록
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			
+			Class.forName("oracle.jdbc.OracleDriver");
+			//4.11날 바꿔놓음 다시 수정해야함 
 			//연결하기
 			conn = DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/thisisjava", 
-				"java", 
-				"mysql"
+				"jdbc:oracle:thin:@localhost:1521/xe", 
+				"system", 
+				"manager"
 			);	
 			
 			System.out.println("연결 성공");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
-			e.printStackTrace();
+			e.printStackTrace(); 
 		} finally {
 			if(conn != null) {
 				try { 
